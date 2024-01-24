@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(40, 40, 105);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 241);
+}
+
+
+.left {
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+
+.leftSection {
+
+    width: 34px;
+    font-size: 2.8rem;
+    margin: 150px 0;
+    margin-top: 30%;
+}
+
+.firstsection div {
+    width: 30%;
+    margin: 100px;
+    padding: 0;
+}
+
+.RightSection img {
+    width: 110%;
+    margin: 80px 0;
+}
+
+.purple {
+    color: rgb(155, 94, 211);
+
+}
+
+#element {
+    color: rgb(155, 94, 211);
+
+
+
+}
+
+
+
+.button1 {
+padding: 10px;
+background-color: rgb(155, 94, 211);
+margin: 60px 20px; /* Adjusted margin */
+border: 3px solid white;
+font-size: 18px;
+border-radius: 20px;
+cursor: pointer;
+text-decoration: none;
+}
+
+
+
+#projects {
+    background-color: rgb(0, 0, 33);
+    color: rgb(133, 71, 137);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 30px;
+    background-color: rgb(40, 40, 105);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    color: rgb(155, 94, 211);
+}
+
+.project p {
+    font-size: 16px;
+}
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(155, 94, 211);
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.content {
+    font-size: x-large;
+}
+
+.project-link:hover {
+    background-color: rgb(125, 64, 181);
+}
+#contact {
+padding: 50px;
+/* background-color: #f4f4f4; */
+}
+
+.content {
+max-width: 800px;
+margin: 0 auto;
+text-align: center;
+}
+
+.contactform {
+max-width: 600px;
+margin: 20px auto;
+}
+
+.form {
+display: flex;
+flex-direction: column;
+}
+
+.inputbox {
+margin-bottom: 20px;
+position: relative;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+box-sizing: border-box;
+}
+
+
+
+
+input:focus + span, textarea:focus + span, input:valid + span, textarea:valid + span {
+top: -10px;
+left: 5px;
+font-size: 12px;
+color: #333;
+}
+
+
+
+
+.op{color: rgb(155, 94, 2011);}
+footer {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.footerrights {
+margin-bottom: 20px;
+}
+
+.footer {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer-section h3 {
+color: #d4af37; /* Golden color */
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin-bottom: 5px;
+}
+
+.footer-section a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+#about {
+    padding: 50px;
+   
+    background-color: rgb(155, 94, 211);;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #85ff0c;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
